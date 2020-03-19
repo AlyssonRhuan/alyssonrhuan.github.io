@@ -75,8 +75,8 @@ Percebe-se que em 2003 tivemos o nosso pico de indicadores de incêndio, e recen
 
 Fontes:
 
-[Notebook no Kaggle por Alysson](https://www.kaggle.com/alyssonrhuan/forest-fires-in-brazil)
+[Notebook no Kaggle por Alysson](https://www.kaggle.com/alyssonrhuan/forest-fires-in-brazil){:target="_blank"}
 
-[Dataset original por Luís Gustavo Modelli](https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil)
+[Dataset original por Luís Gustavo Modelli](https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil){:target="_blank"}
 
-[Dataset ajustado por Lucas Benevenuto](https://www.kaggle.com/lukebm/forest-fires-in-brazil-adjusted)
+[Dataset ajustado por Lucas Benevenuto](https://www.kaggle.com/lukebm/forest-fires-in-brazil-adjusted){:target="_blank"}
