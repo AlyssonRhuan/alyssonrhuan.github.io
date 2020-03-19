@@ -22,4 +22,5 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = "UA-161191495-1"
+GA_COOKIE_DOMAIN = "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-161191495-1\"></script><script>window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date()); gtag('config', 'UA-161191495-1');</script>"
