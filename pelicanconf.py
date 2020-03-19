@@ -28,9 +28,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/myprofile'),
-          ('github', 'http://github.com/ametaireau'),
-          ('envelope','mailto:my@mail.address'))
+SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
+          ('lastfm', 'http://lastfm.com/user/akounet'),
+          ('github', 'http://github.com/ametaireau'),)
 
 DEFAULT_PAGINATION = 10
 
