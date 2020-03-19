@@ -1,6 +1,11 @@
 Title: Incêndios no Brasil
 Date: 2020-03-19
-Category: Analise
+Modified: 2010-12-05 19:30
+Category: Análise
+Tags: Análise, Artigo
+Slug: Analise
+Authors: Alysson Rhuan
+Summary: Indicadores de incendio em florestas do Brasil
 
 # Indicadores de incendio em florestas do Brasil
 
