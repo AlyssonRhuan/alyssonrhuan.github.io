@@ -8,7 +8,7 @@ AUTHOR = 'Alysson Rhuan'
 SITENAME = 'Galáxia de Dados'
 SITEURL = 'https://alyssonrhuan.github.io/'
 
-USE_FOLDER_AS_CATEGORY = True
+DISPLAY_PAGES_ON_MENU = True
 
 PATH = 'content'
 
