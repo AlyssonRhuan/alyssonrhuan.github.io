@@ -9,6 +9,7 @@ SITENAME = 'Galáxia de Dados'
 SITEURL = 'https://alyssonrhuan.github.io/'
 
 DISPLAY_PAGES_ON_MENU = True
+PAGE_PATHS = ['about']
 
 PATH = 'content'
 
