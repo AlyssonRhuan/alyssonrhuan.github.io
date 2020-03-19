@@ -21,15 +21,19 @@ Neste dataset temos dados desde 1998 até 2017, onde cada registro indica o ano 
 
 ## Quais são os meses com maior incidência de focos de incêndio
 
+Primeiramente, iremos agrupar os registros por meses e somar a quantidade de focos de incêncios reportados
+
 ```python
 df.groupby(['month']).sum()['number']
 ```
 
-Primeiramente agrupando os registros por meses e somando a quantidade de focos de incêncios reportados, chegamos ao seguinte gráfico.
+E com estes dados, chegamos ao seguinte gráfico, denominado Total de queimadas reportadas no Brasil de 1998 até 2017 por meses:
 
 <figure class="wp-block-image size-large"><img src="https://galaxiadadoshome.files.wordpress.com/2020/03/image.png?w=912" alt="" class="wp-image-41"/></figure>
 
-Percebemos que os meses mais secos, onde no Brasil temos um menor indice de chuvas, é onde se concentra mais os focos de incêncio. Outro indicador, é que nos meses mais frios é onde há muitas fogueiras afim de aumentar o calor.
+Percebe-se que o menor indice de focos de incêncios reportados foram em Abril, onde o número gira em torno de 28.188, chegando até Julho, com aproximadamente 92.326 casos reportados.
+
+Os meses onde o clima é mais seco, ou seja, no inverno, é quando no Brasil temos um menor indice de chuvas, é quando se concentra a maior quantidade de focos de incêncio. Por ser uma época mais fria, é onde se concentra o maior número de fogueiras, sendo está um dos principais motivos do início de queimadas.
 
 ## Qual foi o número de incêndios por estado.
 
@@ -69,4 +73,10 @@ Percebe-se que em 2003 tivemos o nosso pico de indicadores de incêndio, e recen
 
 <figure class="wp-block-image size-large"><img src="https://galaxiadadoshome.files.wordpress.com/2020/03/image-5.png?w=912" alt="" class="wp-image-51"/></figure>
 
-Notebook no Kaggle<br><a href="https://www.kaggle.com/alyssonrhuan/forest-fires-in-brazil">https://www.kaggle.com/alyssonrhuan/forest-fires-in-brazil</a>'<br>Datasets<br><a href="https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil">https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil</a><br><a href="https://www.kaggle.com/lukebm/forest-fires-in-brazil-adjusted">https://www.kaggle.com/lukebm/forest-fires-in-brazil-adjusted</a>
+Fontes:
+
+[Notebook no Kaggle por Alysson](https://www.kaggle.com/alyssonrhuan/forest-fires-in-brazil)
+
+[Dataset original por Luís Gustavo Modelli](https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil)
+
+[Dataset ajustado por Lucas Benevenuto](https://www.kaggle.com/lukebm/forest-fires-in-brazil-adjusted)

@@ -1,2 +1,8 @@
 import os
-os.system('cmd /k "cd.. && pelican --listen"')
+
+content = "pelican content -o output -s pelicanconf.py"
+listen = "pelican --listen"
+
+command = 'cmd /k "{} && {}"'.format(content, listen)
+
+os.system(command)
