@@ -6,7 +6,7 @@ THEME = 'attila'
 
 AUTHOR = 'Alysson Rhuan'
 SITENAME = 'Galaxia de Dados'
-SITEURL = ''
+SITEURL = 'alyssonrhua.github.io'
 
 PATH = 'content'
 
