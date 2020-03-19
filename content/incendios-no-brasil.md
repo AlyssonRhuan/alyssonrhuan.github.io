@@ -8,7 +8,7 @@ Authors: Alysson Rhuan,
 
 # Indicadores de incendio em florestas do Brasil
 
-Percebemos recentemente um crescente número de focos de incendio em florestas brasileiras, e devido a este assunto, vamos analisar o que as estatísticas conseguem nos dizer sobre isso.
+Percebemos recentemente um crescente número de focos de incendio em florestas brasileiras, e devido a este assunto, vamos analisar o que as estatísticas conseguem nos dizer sobre isso. 
 
 A seguir iremos responder as seguinte questões:
 
