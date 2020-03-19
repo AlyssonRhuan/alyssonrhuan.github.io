@@ -3,8 +3,8 @@ Date: 2020-03-19 10:00
 Modified: 2020-03-19 12:00
 Category: Análise
 Tags: Análise, Artigo
-Slug: Analise
-Authors: Alysson Rhuan,
+Slug: incendios_no_brasil
+Authors: Alysson,
 
 # Indicadores de incendio em florestas do Brasil
 

@@ -4,7 +4,7 @@ Modified: 2020-03-19 12:00
 Category: About
 Tags: pelican, publishing
 Slug: about
-Authors: Alysson Rhuan,
+Authors: Alysson,
 Summary: Short version for index and feeds
 
 # About
