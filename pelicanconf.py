@@ -31,8 +31,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('twitter', 'https://twitter.com/myprofile'),
           ('github', 'https://github.com/myprofile'),
           ('facebook','https://facebook.com/myprofile'),
-          ('flickr','https://www.flickr.com/myprofile/'),
-          ('envelope','mailto:my@mail.address'))
+          ('linkedin','https://www.flickr.com/myprofile/'),
+          ('mail','mailto:my@mail.address'))
 
 DEFAULT_PAGINATION = 10
 
