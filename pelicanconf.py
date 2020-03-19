@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 THEME = 'attila'
 
 AUTHOR = 'Alysson Rhuan'
-SITENAME = 'Galaxia de Dados'
+SITENAME = 'Galáxia de Dados'
 SITEURL = 'https://alyssonrhuan.github.io/'
 
 PATH = 'content'
