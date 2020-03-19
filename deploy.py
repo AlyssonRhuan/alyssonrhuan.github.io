@@ -2,6 +2,7 @@ import os
 from datetime import date
 
 commit_message = date.today()
+publish = "pelican content -s publishconf.py"
 content = "pelican content -o output -s pelicanconf.py"
 output = "ghp-import output -b master"
 master = "git push origin master"
