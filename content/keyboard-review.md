@@ -17,7 +17,9 @@ Neste dataset temos dados desde 1998 até 2017, onde cada registro indica o ano 
 
 ## Quais são os meses com maior incidência de focos de incêndio
 
-```df.groupby(['month']).sum()['number']```
+```python
+df.groupby(['month']).sum()['number']
+```
 
 Primeiramente agrupando os registros por meses e somando a quantidade de focos de incêncios reportados, chegamos ao seguinte gráfico.
 
@@ -29,7 +31,9 @@ Percebemos que os meses mais secos, onde no Brasil temos um menor indice de chuv
 
 Agora agrupando os dados por estado, e somando os registros reportados.
 
-```df.groupby(['state']).sum()['number']```
+```python
+df.groupby(['state']).sum()['number']
+```
 
 Temos o seguinte gráfico ordenado pela quantidade:
 
@@ -45,7 +49,9 @@ Analisando estes dados no mapa do Brasil, temos:
 
 Agrupando os indicadores pelos anos
 
-```df.groupby(['year']).sum()['number']```
+```python
+df.groupby(['year']).sum()['number']
+```
 
 Poderemos visualizar graficamente a variação ao longo deste período:
 

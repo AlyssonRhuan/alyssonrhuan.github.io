@@ -131,14 +131,20 @@
 </ol>
 <p>Neste dataset temos dados desde 1998 até 2017, onde cada registro indica o ano do foco de incendio reportado, o estado, o mês e o número de incêndios florestais relatados.</p>
 <h2>Quais são os meses com maior incidência de focos de incêndio</h2>
-<p><code>df.groupby(['month']).sum()['number']</code></p>
+<div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;month&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">sum</span><span class="p">()[</span><span class="s1">&#39;number&#39;</span><span class="p">]</span>
+</pre></div>
+
+
 <p>Primeiramente agrupando os registros por meses e somando a quantidade de focos de incêncios reportados, chegamos ao seguinte gráfico.</p>
 <figure class="wp-block-image size-large"><img src="https://galaxiadadoshome.files.wordpress.com/2020/03/image.png?w=912" alt="" class="wp-image-41"/></figure>
 
 <p>Percebemos que os meses mais secos, onde no Brasil temos um menor indice de chuvas, é onde se concentra mais os focos de incêncio. Outro indicador, é que nos meses mais frios é onde há muitas fogueiras afim de aumentar o calor.</p>
 <h2>Qual foi o número de incêndios por estado.</h2>
 <p>Agora agrupando os dados por estado, e somando os registros reportados.</p>
-<p><code>df.groupby(['state']).sum()['number']</code></p>
+<div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;state&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">sum</span><span class="p">()[</span><span class="s1">&#39;number&#39;</span><span class="p">]</span>
+</pre></div>
+
+
 <p>Temos o seguinte gráfico ordenado pela quantidade:</p>
 <figure class="wp-block-image size-large"><img src="https://galaxiadadoshome.files.wordpress.com/2020/03/image-1.png?w=912" alt="" class="wp-image-47"/></figure>
 
@@ -148,7 +154,10 @@
 
 <h2>Qual é o número de incêndios relatado ao longo dos anos.</h2>
 <p>Agrupando os indicadores pelos anos</p>
-<p><code>df.groupby(['year']).sum()['number']</code></p>
+<div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;year&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">sum</span><span class="p">()[</span><span class="s1">&#39;number&#39;</span><span class="p">]</span>
+</pre></div>
+
+
 <p>Poderemos visualizar graficamente a variação ao longo deste período:</p>
 <figure class="wp-block-image size-large"><img src="https://galaxiadadoshome.files.wordpress.com/2020/03/image-3.png?w=912" alt="" class="wp-image-49"/></figure>
 
