@@ -144,14 +144,16 @@
 </ol>
 <p>Neste dataset temos dados desde 1998 até 2017, onde cada registro indica o ano do foco de incendio reportado, o estado, o mês e o número de incêndios florestais relatados.</p>
 <h2>Quais são os meses com maior incidência de focos de incêndio</h2>
+<p>Primeiramente, iremos agrupar os registros por meses e somar a quantidade de focos de incêncios reportados</p>
 <div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;month&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">sum</span><span class="p">()[</span><span class="s1">&#39;number&#39;</span><span class="p">]</span>
 </pre></div>
 
 
-<p>Primeiramente agrupando os registros por meses e somando a quantidade de focos de incêncios reportados, chegamos ao seguinte gráfico.</p>
+<p>E com estes dados, chegamos ao seguinte gráfico, denominado Total de queimadas reportadas no Brasil de 1998 até 2017 por meses:</p>
 <figure class="wp-block-image size-large"><img src="https://galaxiadadoshome.files.wordpress.com/2020/03/image.png?w=912" alt="" class="wp-image-41"/></figure>
 
-<p>Percebemos que os meses mais secos, onde no Brasil temos um menor indice de chuvas, é onde se concentra mais os focos de incêncio. Outro indicador, é que nos meses mais frios é onde há muitas fogueiras afim de aumentar o calor.</p>
+<p>Percebe-se que o menor indice de focos de incêncios reportados foram em Abril, onde o número gira em torno de 28.188, chegando até Julho, com aproximadamente 92.326 casos reportados.</p>
+<p>Os meses onde o clima é mais seco, ou seja, no inverno, é quando no Brasil temos um menor indice de chuvas, é quando se concentra a maior quantidade de focos de incêncio. Por ser uma época mais fria, é onde se concentra o maior número de fogueiras, sendo está um dos principais motivos do início de queimadas.</p>
 <h2>Qual foi o número de incêndios por estado.</h2>
 <p>Agora agrupando os dados por estado, e somando os registros reportados.</p>
 <div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;state&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">sum</span><span class="p">()[</span><span class="s1">&#39;number&#39;</span><span class="p">]</span>
@@ -180,7 +182,10 @@
 
 <figure class="wp-block-image size-large"><img src="https://galaxiadadoshome.files.wordpress.com/2020/03/image-5.png?w=912" alt="" class="wp-image-51"/></figure>
 
-<p>Notebook no Kaggle<br><a href="https://www.kaggle.com/alyssonrhuan/forest-fires-in-brazil">https://www.kaggle.com/alyssonrhuan/forest-fires-in-brazil</a>'<br>Datasets<br><a href="https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil">https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil</a><br><a href="https://www.kaggle.com/lukebm/forest-fires-in-brazil-adjusted">https://www.kaggle.com/lukebm/forest-fires-in-brazil-adjusted</a></p>
+<p>Fontes:</p>
+<p><a href="https://www.kaggle.com/alyssonrhuan/forest-fires-in-brazil">Notebook no Kaggle por Alysson</a></p>
+<p><a href="https://www.kaggle.com/gustavomodelli/forest-fires-in-brazil">Dataset original por Luís Gustavo Modelli</a></p>
+<p><a href="https://www.kaggle.com/lukebm/forest-fires-in-brazil-adjusted">Dataset ajustado por Lucas Benevenuto</a></p>
             </section>
 
             <section class="post-info">
