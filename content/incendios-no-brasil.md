@@ -4,7 +4,7 @@ Modified: 2010-12-05 19:30
 Category: Análise
 Tags: Análise, Artigo
 Slug: Analise
-Authors: Alysson Rhuan
+Authors: Alysson Rhuan,
 
 # Indicadores de incendio em florestas do Brasil
 
