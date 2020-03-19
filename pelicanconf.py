@@ -28,8 +28,22 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/myprofile'),
+          ('github', 'https://github.com/myprofile'),
+          ('facebook','https://facebook.com/myprofile'),
+          ('flickr','https://www.flickr.com/myprofile/'),
+          ('envelope','mailto:my@mail.address'))
+
+AUTHORS_BIO = {
+  "zutrinken": {
+    "name": "Zutrinken",
+    "cover": "https://arulrajnet.github.io/attila-demo/assets/images/avatar.png",
+    "image": "https://arulrajnet.github.io/attila-demo/assets/images/avatar.png",
+    "website": "http://blog.arulraj.net",
+    "location": "Chennai",
+    "bio": "This is the place for a small biography with max 200 characters. Well, now 100 are left. Cool, hugh?"
+  }
+}
 
 DEFAULT_PAGINATION = 10
 
