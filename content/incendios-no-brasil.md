@@ -21,7 +21,7 @@ Neste dataset temos dados desde 1998 até 2017, onde cada registro indica o ano 
 
 ## Quais são os meses com maior incidência de focos de incêndio
 
-Primeiramente, iremos agrupar os registros por meses e somar a quantidade de focos de incêncios reportados
+Primeiramente, iremos agrupar os registros por meses e somar a quantidade de focos de incêncios reportados:
 
 ```python
 df.groupby(['month']).sum()['number']
@@ -37,19 +37,18 @@ Os meses onde o clima é mais seco, ou seja, no inverno, é quando no Brasil tem
 
 ## Qual foi o número de incêndios por estado.
 
-Agora agrupando os dados por estado, e somando os registros reportados.
+Agora agrupando os dados por estado, e somando os registros reportados:
 
 ```python
 df.groupby(['state']).sum()['number']
 ```
 
-Temos o seguinte gráfico ordenado pela quantidade:
+Temos o seguinte gráfico, quantidade de focos por estado, ordenado pela quantidade:
 
 <figure class="wp-block-image size-large"><img src="https://galaxiadadoshome.files.wordpress.com/2020/03/image-1.png?w=912" alt="" class="wp-image-47"/></figure>
 
-Percebemos que São Paulo, o estado brasileiro mais populoso, com 12,18 milhões segundo o IBGE (2018), lidera o ranking de focos de incêndios em florestas reportados. Podemos ver tambem que os estados com vegetação seca ficam localizados em sua maioria, na primeira metade dos registros.
-
-Analisando estes dados no mapa do Brasil, temos:
+Percebemos que São Paulo, o estado brasileiro mais populoso, com 12,18 milhões segundo o IBGE (2018), lidera o ranking de focos de incêndios em florestas reportados. É nesta região onde fica a Mata Atlântica, uma importante floresta brasileira. 
+Podemos ver tambem que os estados com vegetação seca ficam localizados em sua maioria, na primeira metade dos registros. Analisando estes dados no mapa do Brasil, temos:
 
 <figure class="wp-block-image size-large"><img src="https://galaxiadadoshome.files.wordpress.com/2020/03/image-2.png?w=575" alt="" class="wp-image-48"/></figure>
 
