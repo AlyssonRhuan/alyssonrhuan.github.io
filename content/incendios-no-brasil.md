@@ -6,7 +6,7 @@ Tags: Análise, Artigo
 Slug: incendios_no_brasil
 Authors: Alysson,
 
-# Indicadores de incendio em florestas do Brasil
+# Indicadores de incêndios em florestas do Brasil
 
 Percebemos recentemente um crescente número de focos de incendio em florestas brasileiras, e devido a este assunto, vamos analisar o que as estatísticas conseguem nos dizer sobre isso. 
 
