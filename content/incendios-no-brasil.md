@@ -52,15 +52,17 @@ Podemos ver tambem que os estados com vegetação seca ficam localizados em sua 
 
 <figure class="wp-block-image size-large"><img src="https://galaxiadadoshome.files.wordpress.com/2020/03/image-2.png?w=575" alt="" class="wp-image-48"/></figure>
 
+Grande parte das regiões mais afetadas é onde se concentra o cerrado, no Centro-Oeste, e a Floresta Tropical, no estado de São
+
 ## Qual é o número de incêndios relatado ao longo dos anos.
 
-Agrupando os indicadores pelos anos
+Para este item iremos agrupando os indicadores pelos anos
 
 ```python
 df.groupby(['year']).sum()['number']
 ```
 
-Poderemos visualizar graficamente a variação ao longo deste período:
+E assim poderemos visualizar graficamente a variação ao longo deste período:
 
 <figure class="wp-block-image size-large"><img src="https://galaxiadadoshome.files.wordpress.com/2020/03/image-3.png?w=912" alt="" class="wp-image-49"/></figure>
 
