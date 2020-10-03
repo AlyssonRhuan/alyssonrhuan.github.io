@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 
 THEME = 'attila'
+HEADER_COVER = 'static/HEADER_COVER.jpg'
 
 AUTHOR = 'Alysson Rhuan'
 SITENAME = 'Galáxia de Dados'
